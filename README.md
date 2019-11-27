@@ -1,68 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hack-a-Class - Tecnologia nas Escolas
 
-## Available Scripts
+A Hack-a-Class acredita no poder da educação e que ela pode transformar o mundo, principalmente quando estamos falando de tecnologia.
 
-In the project directory, you can run:
+Hoje em dia, a maioria das escolas no Brasil ainda não possuem um incetivo para a tecnologia, mais especificamente programação.
 
-### `npm start`
+De acordo com a Head de Educação do Linkedin Brasil, em 20 anos, cerca de 40% das vagas do mercado de trabalho serão extintas.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Por outro lado, a tecnologia da informação e desenvolvimento de software é uma área que não para de crescer ano a ano.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Nosso projeto visa facilitar a entrada do ensino de programação nas escolas, independente da sua estrutura tecnológica. Somos uma empresa que oferece tudo que é necessário para viabilizar este processo: máquinas, instrutores qualificados e mentoria.
 
-### `npm test`
+Nossas parcerias contam com empresas que alugam notebooks e empresas top notch que precisam de desenvolvedores, onde faríamos a ponte entre elas e os alunos que se destacam no curso.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+***A tecnologia é somente uma ferramenta. no que se refere a motivar as crianças e conseguir que trabalhem juntas, um professor é o recurso mais importante.*** - Bill Gates
