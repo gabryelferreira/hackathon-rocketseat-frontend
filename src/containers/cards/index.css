@@ -1,0 +1,94 @@
+#cards-container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#cards-container .why-label {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#cards-container .cards-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cards-container .card {
+    position: relative;
+    width: 100%;
+    max-width: 290px;
+    background: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .15);
+    margin: 0 20px;
+}
+
+#cards-container .card:first-child {
+    margin-left: 0;
+}
+
+#cards-container .card:last-child {
+    margin-right: 0;
+}
+
+#cards-container .card h2, .card h3 {
+    color: #FA5275;
+    text-align: center;
+}
+
+#cards-container .card:nth-child(2) h2, .card:nth-child(2) h3 {
+    color: #01C785;
+}
+
+#cards-container .card:nth-child(3) h2, .card:nth-child(3) h3 {
+    color: #444797;
+}
+
+#cards-container .card h2 {
+    font-size: 18px;
+}
+
+#cards-container .card h3 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#cards-container .text-info {
+    margin-top: 20px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+#cards-container .text-info p {
+    font-size: 14px;
+    color: #7B7B7B;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 800px) {
+    #cards-container .cards-container {
+        flex-wrap: wrap;
+    }
+
+    #cards-container .card {
+        width: 100%;
+        max-width: 100%;
+        margin: 20px 0 !important;
+    }
+}

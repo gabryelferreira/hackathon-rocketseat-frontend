@@ -1,0 +1,34 @@
+#contact-form-container {
+    position: relative;
+    width: 100%;
+}
+
+#contact-form-container .content {
+    max-width: 400px;
+}
+
+#contact-form-container form {
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    background: #eee;
+    border-radius: 8px;
+}
+
+#contact-form-container form .input-container {
+    margin: 20px 0;
+}
+
+
+#contact-form-container form .buttons {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact-form-container form .buttons button {
+    font-size: 12px;
+    padding: 12px 38px;
+}

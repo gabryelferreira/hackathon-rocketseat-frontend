@@ -1,0 +1,37 @@
+.page-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.page-section:first-child {
+    background-image: url('../../assets/imgs/background.svg');
+    background-position: right top;
+    background-position-x: 106%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.page-section:nth-child(2) {
+    background: #2980B9;
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+
+}
+
+.page-section:last-child {
+    background-image: url('../../assets/imgs/background-2.svg');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 800px) {
+    .page-section:first-child {
+        background-image: none;
+    }
+    .page-section:last-child {
+        background-position: bottom right;
+        background-position-y: 400px;
+    }
+}

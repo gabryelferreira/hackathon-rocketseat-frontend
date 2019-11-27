@@ -1,0 +1,34 @@
+#main-content-container {
+    position: relative;
+    width: 100%;
+}
+
+#main-content-container .content {
+    max-width: 550px;
+}
+
+#main-content-container h2 {
+    margin-bottom: 30px;
+    color: #2f3536;
+}
+
+#main-content-container p {
+    color: #999;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+#main-content-container .buttons {
+    margin-top: 30px;
+}
+
+#main-content-container .buttons button:first-child {
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    #main-content-container .buttons button:first-child {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}

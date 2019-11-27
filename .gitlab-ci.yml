@@ -1,0 +1,61 @@
+stages:
+  - build
+  - deploy
+  - clearcache
+
+image: docker:stable
+
+variables:
+  AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID 
+  AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+  CLOUDFRONT_ID: $CLOUDFRONT_ID
+
+Build:Development:
+  stage: build
+  image: node:10-alpine
+  environment:
+    name: development
+  script:
+    - npm install
+    - CI=false npm run build
+  artifacts:
+    paths:
+      - build/
+      - tmp/
+  only:
+    - develop
+
+Build:Production:
+  stage: build
+  image: node:10-alpine
+  environment:
+    name: production
+  script:
+    - npm install
+    - CI=false npm run build
+  artifacts:
+    paths:
+      - build/
+      - tmp/
+  only:
+    - master
+    
+# deploy to prod
+Deploy:Production:
+  stage: deploy
+  image: python:latest
+  script:
+    - pip install awscli
+    - aws s3 cp build/ s3://hackathon-rocketseat/ --recursive --include "*"
+  only:
+    - master
+
+ClearCache:
+  stage: clearcache
+  image: python:latest
+  script:
+    - pip install awscli
+    - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_ID --paths "/*"
+  only:
+    - develop
+    - master
